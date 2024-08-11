@@ -82,7 +82,7 @@
                   />
 
                   <?php if($_post['submit']){
-                    echo('ceci est un test');
+                    die('ceci est un test');
                   } ?>
                 </form>
               </div>
