@@ -47,6 +47,7 @@
                       class="form-control"
                       placeholder="Enter your Licence ID"
                       id="username"
+                      name="username"
                     />
                   </div>
                   <div class="form-group last mb-3">
@@ -54,6 +55,7 @@
                     <input
                       type="password"
                       class="form-control"
+                      name="password"
                       placeholder="Enter Your Zebra PASSPHRASE "
                       id="password"
                     />
@@ -75,8 +77,13 @@
                   <input
                     type="submit"
                     value="Log In"
+                    name="submit"
                     class="btn btn-block btn-primary"
                   />
+
+                  <?php if($_post['submit']){
+                    echo('ceci est un test');
+                  } ?>
                 </form>
               </div>
             </div>
