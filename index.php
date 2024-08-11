@@ -56,7 +56,7 @@
                       type="password"
                       class="form-control"
                       name="password"
-                      placeholder="Enter Your Zebra PASSPHRASE "
+                      placeholder="Enter Your Zebra --- PASSPHRASE "
                       id="password"
                     />
                   </div>
