@@ -39,7 +39,7 @@
                   <h3>Welcome To <strong>Zebra Generator Platform</strong></h3>
                   <!-- <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p> -->
                 </div>
-                <form action="#" method="post">
+                <form action="index.php" method="post">
                   <div class="form-group first">
                     <label for="username">Licence ID</label>
                     <input
